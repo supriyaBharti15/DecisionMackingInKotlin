@@ -23,3 +23,42 @@ Simple IF | IF-Else | When | Nested IF | IF and When
             println("FAIL")
     }
 ```
+## When loop
+```kotlin
+private fun whenLoopTest(weekDayID: Int) {
+        when (weekDayID) {
+            1 -> {
+                println("Sunday")
+                println("Its Weekend")
+            }
+            2 -> {
+                println("Monday")
+                println("Its WeekDays")
+            }
+            3 -> {
+                println("Tuesday")
+                println("Its WeekDays")
+            }
+            4 -> {
+                println("Wednesday")
+                println("Its WeekDays")
+            }
+            5 -> {
+                println("Thursday")
+                println("Its WeekDays")
+            }
+            6 -> {
+                println("Friday")
+                println("Its WeekDays")
+            }
+            7 -> {
+                println("Saturday")
+                println("Its Weekend")
+            }
+            else -> {
+                println("Invalid Input")
+            }
+        }
+    }
+```
+
