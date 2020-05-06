@@ -39,23 +39,7 @@ private fun whenLoopTest(weekDayID: Int) {
                 println("Tuesday")
                 println("Its WeekDays")
             }
-            4 -> {
-                println("Wednesday")
-                println("Its WeekDays")
-            }
-            5 -> {
-                println("Thursday")
-                println("Its WeekDays")
-            }
-            6 -> {
-                println("Friday")
-                println("Its WeekDays")
-            }
-            7 -> {
-                println("Saturday")
-                println("Its Weekend")
-            }
-            else -> {
+           else -> {
                 println("Invalid Input")
             }
         }
