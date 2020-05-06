@@ -55,4 +55,13 @@ private fun whenLoopTest(weekDayID: Int) {
         }
     }
 ```
+```kotlin
+ private fun whenLoopTest(GPA: Int) {
+        val result: Boolean = when (GPA) {
+            4 -> true
+            else -> false
+        }
+        println(result)
+    }
+```
 
