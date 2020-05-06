@@ -45,4 +45,14 @@ private fun whenLoopTest(weekDayID: Int) {
         }
     }
 ```
+```kotlin
+ private fun whenLoopTest(grade: Int) {
+        when {
+            grade in 80..100 -> println("Grade A")
+            grade in 50..79 -> println("Grade B")
+            grade in 30..49 -> println("Grade C")
+            else -> println("FAIL")
+        }
+    }
+```
 
