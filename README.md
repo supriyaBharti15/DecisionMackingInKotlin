@@ -130,5 +130,15 @@ private fun breakContinue() {
        } // Output  :: 1,2,3,4,5,7,8,9,10
     }
 ```
+//break
+```kotlin
+ private fun breakContinue() {
+       for (i : Int in 1..10){
+           if(i==6) // 6 will not print
+               break
+           println("number : $i")
+       } // Output  :: 1,2,3,4,5,
+    }
+```
 
 
