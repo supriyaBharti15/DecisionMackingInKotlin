@@ -120,6 +120,15 @@ private fun simpleLoop(){
         } while (i < 10)//Output : 1,3,5,7,9
     }
 ```
-
+## continue and break in kotlin
+```kotlin
+private fun breakContinue() {
+       for (i : Int in 1..10){
+           if(i==6) // 6 will not print 
+               continue
+           println("number : $i")
+       } // Output  :: 1,2,3,4,5,7,8,9,10
+    }
+```
 
 
