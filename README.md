@@ -110,7 +110,16 @@ private fun simpleLoop(){
         } //Output : 1,2,3,4,5,6,7,8,9,10
     }
 ```
-
+## do-while loop
+```kotlin
+ private fun doWhileLoop() {
+        var i = 1
+        do {
+            println("Output is : $i")
+            i = i + 2
+        } while (i < 10)//Output : 1,3,5,7,9
+    }
+```
 
 
 
