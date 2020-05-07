@@ -89,6 +89,14 @@ private fun simpleLoop(){
        //Output : 2,4,6,8,10
    }
    ```
+// print number 1 to 10 in decremented order 
+```kotlin
+ private fun simpleLoop() {
+        for (i: Int in 10 downTo 0)
+            println("Numbre is : $i")
+        //Output 10,9,8,7,6,5,4,3,2,1,0
+    }
+```
 
 
 
