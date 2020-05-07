@@ -73,6 +73,22 @@ private fun whenLoopTest(weekDayID: Int) {
        //Output : 1,2,3,4,5,6,7,8,9,10
    }
 ```
+//print Odd no in range 1 to 10
+```kotlin
+private fun simpleLoop(){
+       for( i:Int in 1..10 step 2)
+           println("Number is :: $i")
+       //Output : 1,3,,5,7,9
+   }
+   ```
+   //print even number
+   ```kotlin
+   private fun simpleLoop(){
+       for( i:Int in 2..10 step 2)
+           println("Number is :: $i")
+       //Output : 2,4,6,8,10
+   }
+   ```
 
 
 
